@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs';
-import { JsonWebTokenError } from 'jsonwebtoken';
-import userModel from '../model/userModal';
+// import { JsonWebTokenError } from 'jsonwebtoken';
+import userModel from '../model/userModal.js';
 
 export const register = async (req,res)=>{
     const {name , email, password} = req.body;
